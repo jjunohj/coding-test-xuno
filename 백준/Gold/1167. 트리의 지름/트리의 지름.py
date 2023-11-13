@@ -1,5 +1,5 @@
-# import sys
-# input = sys.stdin.readline
+import sys
+input = sys.stdin.readline
 
 V = int(input().rstrip())
 adjList = [[] for _ in range(V+1)]
